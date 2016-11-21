@@ -1,0 +1,115 @@
+/* 
+    Document   : default.css
+    Created on : 02-Mar-2011, 10:16:09
+    Author     : somoud saqfelhait
+    Description:contains all default attributes
+*/
+/* Colour Scheme */
+/*Constants
+
+$c1='#397639';
+$c2='#365936';
+$c3='#134E13';
+$c4='#73BC73';
+$c5='#87BC87';
+$c6='#ffffff';
+*/
+html,body,div,span, applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code, del,dfn,em,font,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var, fieldset,form,dd,dl,dt,li,ol,ul,
+legend, table,caption,tbody,tfoot,thead,tr,th,td,label
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100%;
+    line-height: 1;
+    font-family: inherit;
+    text-align: left;
+    list-style: none;
+}
+body
+{
+    background: -moz-linear-gradient(50% 100% 45deg, $c6, $c5);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from($c6), to($c5));
+}
+/*  html 5 fix */
+section,article,header,footer,nav,aside,hgroup
+{
+    display: block;
+}
+
+/*   default html selectors */
+body
+{
+    font-family: verdana,helvetica,arial,sans-serif;
+    color:$c2;
+}
+html
+{
+    font-size: 12px;
+}
+strong
+{
+    font-weight: bold;
+}
+
+a:link, a:visited,a:hover
+{
+    text-decoration: none;
+}
+a
+{
+    color: inherit;
+    background-color: inherit;
+    line-height:1.5em;
+}
+img
+{
+    margin: 0.15em;
+}
+ul, ol
+{
+    line-height: 1.5em;
+    padding: 0;
+    margin-bottom: 1em;
+}
+li
+{
+    line-height: 1.1em;
+    padding: 0;
+    margin-bottom: 1.2em;
+}
+
+
+/* Typography*/
+h1, h2, h3, h4, h5, h6  { }
+h1
+{
+    font-size: 2.1em;
+    margin: 0.15em 0 0em 0;
+}
+h2
+{
+    font-size: 1.5em;
+    margin: 1em 0 1em 0;
+}
+h3
+{
+    font-size: 1.3em;
+    margin: 1.5em 0 1.5em 0;
+}
+h4
+{
+    font-size: 1.1em;
+    margin: 1.5em 0 1.5em 0;
+}
+p
+{
+    font-size: 1em;
+    line-height: 1.4em;
+    padding: 0;
+    margin: 1.1em 0 1.1em 0;
+}

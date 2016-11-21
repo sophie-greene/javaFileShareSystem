@@ -1,0 +1,12 @@
+@import 'css.php?c=default.css';
+@import 'css.php?c=layout.css';
+@import 'css.php?c=main.css';
+/* 
+    Document   : global.css
+    Created on : 19-Mar-2011, 11:54:53
+    Author     : somoud
+    Description:parse the css files to use the predefined constants
+        
+*/
+
+

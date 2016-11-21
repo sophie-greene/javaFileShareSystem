@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : Forum.xml
+    Created on : 03 March 2011, 06:23
+    Author     : Somoud
+    Description:
+        Purpose of the document follows.
+-->
+<forum>
+    <subject>
+        <name>Home</name>
+        <description>Touchstone and YHIP Forum</description>
+        <url>index.php?cmd=index</url>
+     </subject>
+     <subject>
+        <name>Files</name>
+        <description>View Uploadedd files</description>
+        <url>index.php?cmd=files</url>
+     </subject>
+     <subject>
+        <name>Messages</name>
+            <description>posted messages</description>
+
+                <messages>
+                    <message>
+                        <user>Somoud</user>
+                        <time>12:30am</time>
+                        <date>12/12/2011</date>
+                        <title>What is next</title>
+                        <uri>cmd=detail</uri>
+                        <content>This is a post</content>
+
+                    </message>
+                    <message>
+                        <user>Anna</user>
+                        <time>12:30am</time>
+                        <date>12/12/2011</date>
+                        <title>Mental Health and Housing Action learning sets</title>
+                        <uri>cmd=detail</uri>
+                        <content>This is a post</content>
+
+                    </message>
+                </messages>
+                <url>index.php?cmd=messages</url>
+            </subject>
+ <subject>
+        <name>Upload Files</name>
+        <description>Upload</description>
+        <url>index.php?cmd=upload</url>
+     </subject>
+</forum>

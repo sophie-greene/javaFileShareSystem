@@ -1,0 +1,227 @@
+/*
+ * LAYOUT.CSS (Design and layout goes here)
+ * Created on : 06-Feb-2011, 22:11:08
+ * version: 0.1
+ * media: screen
+ *
+ *@auther:Somoud Saqfelhait
+ * * */ /*Constants
+*/ /* main (wrapper) */
+#wrapper {
+	float: inherit;
+	margin: 1%;
+	width: 98%;
+	min-width: 600px;
+	min-height: 98%;
+	max-width: 1000px;
+	height: auto !important;
+	height: 98%;
+}
+
+#middle {
+	width: 100%;
+	padding: 0 0 100px;
+	height: 1%;
+	position: relative;
+}
+
+#middle :after {
+	content: '.';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
+
+#container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	min-width: 400px;
+}
+
+#mainMenu {
+	overflow: hidden;
+	background: #87BC87;
+	min-width: 300px;
+	z-index: 0;
+}
+
+#content {
+	float: left;
+	font-size: 1em;
+	margin: 10px 1px 10px 1px;
+	padding: 2%;
+	background: #87BC87;
+	overflow: hidden;
+	width: 96%;
+	min-height: 300px;
+	min-width: 240px;
+	z-index: 0;
+}
+
+#footer {
+	margin: -80px 1px 10px 1px;
+	overflow: hidden;
+	background: #87BC87;
+	min-width: 300px;
+}
+
+/* * * * * *  main header  * * * * * */
+#header {
+	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, Geneva,
+		sans-serif;
+	z-index: 0;
+}
+
+#header .logo h1 {
+	color: #134E13;
+	padding-left: 20px;
+	text-shadow: 7px 7px 7px #87BC87;
+}
+
+#header .logo h2 {
+	color: #134E13;
+	padding-left: 30px;
+	text-shadow: 5px 5px 5px #87BC87;
+}
+
+/* Main Navigation   */
+#mainMenu ul {
+	padding-left: 0;
+	margin-left: 0;
+}
+
+#mainMenu li {
+	list-style: none;
+	margin: 0;
+	padding: 0.25em;
+	display: inline;
+}
+
+#mainMenu ul li a {
+	float: left;
+	margin: 5px 5px 5px 5px;
+	padding: 0.5em;
+	text-align: center;
+	color: #134E13;
+	background: #73BC73;
+	min-width: 5em;
+}
+
+#mainMenu ul li a:hover,#mainMenu ul li a:focus,#mainMenu ul li.active a
+	{
+	background: #134E13;
+	color: #fff;
+	min-width: 5em;
+}
+
+#mainMenu ul li.active a {
+	background: #87BC87;
+}
+
+/*  footer  */
+#copyright {
+	color: #365936;
+	text-shadow: 2px 2px 2px #134E13;
+	font-weight: bold;
+	margin: 5px 5px 5px 5px;
+	padding: .5em;
+	text-align: center;
+}
+
+.searchform {
+	float: right;
+	margin-right: 2em !important;
+	width: 300px;
+	z-index: 2;
+}
+
+.loginform {
+	float: right;
+	margin-right: 2em !important;
+	padding: 0px;
+	z-index: 1;
+}
+
+.login {
+	width: 400px;
+	align: center;
+	margin-left: 200px;
+	padding: 10px;
+}
+
+.login fieldset {
+	padding: 20px;
+}
+
+.register {
+	width: 700px;
+	align: center;
+	margin-left: 100px;
+	padding: 10px;
+}
+
+.register fieldset {
+	padding: 20px;
+}
+
+.upload {
+	width: 600px;
+	align: center;
+	margin-left: 100px;
+	padding: 10px;
+}
+
+.logout {
+	width: 200px;
+	float: right;
+	align: center;
+}
+
+.grid1,.grid2{
+	float: left;
+	display: inline;
+	margin-left:20px;
+	margin-bottom:20px;
+	width:45%;
+	min-height:600px;
+	background: #87BC87;
+	padding:5px;
+}
+.grid1 label,.grid2 label{
+	width:10em;
+	
+}
+.grid1 fieldset,.grid2 fieldset{
+	background: #87BC87;
+	
+}
+.grid1 select,.grid2 select{
+	width:250px;
+}
+.grid1 input,.grid2 input{
+	
+}
+
+.link a{
+	background:#87BC87;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	margin:5px;
+	float:left;
+	color:#134E13;
+	font-weight:bold;
+	font-align:center;
+	}
+.link a:hover{
+	background:#134E13;
+	color:#ffffff;
+	}
+.message{
+	position:absolute;
+	margin-left:280px;
+	margin-top:60px;
+	}

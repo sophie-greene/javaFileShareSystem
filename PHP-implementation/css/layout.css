@@ -1,0 +1,149 @@
+/*
+ * LAYOUT.CSS (Design and layout goes here)
+ * Created on : 06-Feb-2011, 22:11:08
+ * version: 0.1
+ * media: screen
+ *
+ *@auther:Somoud Saqfelhait
+ * * */ /*Constants
+$c1='#397639';
+$c2='#365936';
+$c3='#134E13';
+$c4='#73BC73';
+$c5='#87BC87';
+$c6='#ffffff';
+$rn='15px';
+$rm='15px';
+$rf='10px';
+*/
+/* main (wrapper) */
+
+#wrapper {
+    float: inherit;
+    margin: 1%;
+    width: 98%;
+    min-width: 600px;
+    min-height: 98%;
+    max-width: 1000px;
+    height: auto !important;
+    height: 98%;
+}
+
+#middle {
+    width: 100%;
+    padding: 0 0 100px;
+    height: 1%;
+    position: relative;
+}
+
+#middle :after {
+    content: '.';
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
+#container {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    min-width: 400px;
+}
+
+#mainMenu {
+
+    background: -moz-linear-gradient(100% 100% 90deg, $c1, $c5);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from($c5), to($c1));
+    opacity: 0.8;
+    -moz-border-radius: $rm;
+    -webkit-border-radius: $rm;
+    max-width: 1000px;
+    min-width: 300px;
+    overflow: hidden;
+    z-index: 0;
+}
+
+#content {
+    font-size: 1em;
+    padding: .7em;
+    border:solid 2px $c1;
+    margin:10px 1px 10px 1px;
+    background: -moz-linear-gradient(100% 100% 90deg, $c5, $c6);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from($c6), to($c5));
+    -moz-border-radius: $rm;
+    -webkit-border-radius: $rm;
+    overflow: hidden;
+    width:95%;
+    min-height:300px;
+    min-width:240px;
+}
+
+#footer {
+
+    overflow: hidden;
+    background: -moz-linear-gradient(100% 100% 90deg, $c1, $c5);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from($c5), to($c1));
+    
+    -moz-border-radius: $rm;
+    -webkit-border-radius: $rm;
+    min-width:300px;
+    margin:-100px 0px 0px 0px;
+}
+
+/* * * * * *  main header  * * * * * */
+#header {
+    z-index: 0;
+}
+#header .login
+{
+    float: right;
+    margin-top: -10px;
+    margin-right: -25em;
+    position: relative;
+    font-weight: bolder;
+    font-size: 1.2em;
+    text-shadow: 5px 5px 5px $c5;
+}
+
+
+#header .search form
+{
+    float:right;
+    height: 5em;
+}
+
+/* loginI */
+.loginI{
+    float:right;
+}
+.registerI{
+    float:left;
+}
+
+.logoI{
+    max-height: 200px;
+}
+.upload {
+    width: 600px;
+    margin-left: 100px;
+    padding: 10px;
+}
+
+.logout {
+    width: 200px;
+    float: right;
+}
+
+.message{
+    position:absolute;
+    margin-left:280px;
+    margin-top:60px;
+}
+.loginI label,
+.registerI label,
+.upload label{
+    /* overcome inline nature of label*/
+    float:left;
+    width:10em;
+}

@@ -1,0 +1,121 @@
+/* 
+    Document   : default.css
+    Created on : 02-Mar-2011, 10:16:09
+    Author     : somoud saqfelhait
+    Description:contains all default attributes
+*/
+/* Colour Scheme */
+/*Constants
+
+#397639='#397639';
+#365936='#365936';
+#134E13='#134E13';
+#73BC73='##73BC73';
+#87BC87='#87BC87';
+*/
+html,body,div,span, applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code, del,dfn,em,font,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var, fieldset,form,label,dd,dl,dt,li,ol,ul,
+legend, table,caption,tbody,tfoot,thead,tr,th,td
+    {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 100%;
+        line-height: 1;
+        font-family: inherit;
+        text-align: left;
+        list-style: none;
+    }
+
+/*  html 5 fix */
+section,article,header,footer,nav,aside,hgroup
+    {
+        display: block;
+    }
+
+/*   default html selectors */
+body
+    {
+        font-family: verdana,helvetica,arial,sans-serif;
+        color:#365936;
+    }
+html
+    {
+        font-size: 12px;
+    }
+strong
+    {
+       font-weight: bold;
+    }
+
+a:link, a:visited,a:hover
+    {
+        text-decoration: none;
+    }
+a
+    {
+        color: inherit;
+        background-color: inherit;
+        line-height:1.5em;
+    }
+img
+    {
+        margin: 0.15em;
+    }
+ul, ol
+    {
+        line-height: 1.5em;
+        padding: 0;
+        margin-bottom: 1em;
+    }
+li
+    {
+        line-height: 1.5em;
+        padding: 0;
+        margin-bottom: 1em;
+    }
+
+/* Typography*/
+h1, h2, h3, h4, h5, h6  { }
+h1
+    {
+        font-size: 2.1em;
+        margin: 0.15em 0 0em 0;
+    }
+h2
+    {
+        font-size: 1.5em;
+        margin: 1em 0 1em 0;
+    }
+h3
+    {
+        font-size: 1.3em;
+        margin: 1.5em 0 1.5em 0;
+    }
+h4
+    {
+        font-size: 1.1em;
+        margin: 1.5em 0 1.5em 0;
+    }
+p
+    {
+        font-size: 1em;
+        line-height: 1.4em;
+        padding: 0;
+        margin: 1.1em 0 1.1em 0;
+    }
+    label{
+    line-height:1.4em;
+    }
+    table
+{
+border-collapse:collapse;
+}
+table,th, td
+{
+border: 1px solid black;
+padding:1px;
+}
