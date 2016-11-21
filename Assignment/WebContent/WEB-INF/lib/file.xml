@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<web-app xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<SETTINGS>
+<HOST>
+    
+	
+
+<IP>192.168.3.5</IP>
+
+
+
+
+<IP>168.123.23.2</IP>
+<IP>194.234.34.3</IP>
+
+
+
+<IP>192.168.2.3</IP>
+
+</HOST>
+<FILE>
+	<MAXSIZE>1024000000</MAXSIZE>
+</FILE>
+</SETTINGS>
+</web-app>
